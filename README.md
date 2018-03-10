@@ -1,13 +1,21 @@
-# Han - a mobile app to help find local businesses based on user reviews
+# Han
+>a mobile app to help find local businesses based on user reviews
 
-##Framework
-React, React-Redux, React-Router, LESS
+## Framework
+>React
+>React-Redux
+>React-Router
+>LESS
 
-## Mock server
-  npm run mock
-  run at localhost:3000/api
+## Build Setup
+``` bash
 
-## Start
-  npm install
-  npm start
-  run at localhost:8080
+# install dependencies
+npm install
+
+# mock server
+npm run mock
+run at localhost:3000/api
+
+# serve with hot reload at localhost:8080
+npm start

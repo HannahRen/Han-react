@@ -19,11 +19,7 @@ npm start
 ```
 
 # Some screenshots
-> Home page
 ![home](https://github.com/HannahRen/Han-react/blob/master/screenshots/home.png?raw=true)
-> Business detail page
 ![detail](https://github.com/HannahRen/Han-react/blob/master/screenshots/detail.png?raw=true)
-> Login page
 ![login](https://github.com/HannahRen/Han-react/blob/master/screenshots/login.png?raw=true)
-> User center page
 ![user](https://github.com/HannahRen/Han-react/blob/master/screenshots/User.png?raw=true)

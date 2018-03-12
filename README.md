@@ -16,13 +16,14 @@ run at localhost:3000/api
 
 # serve with hot reload at localhost:8080
 npm start
+```
 
 # Some screenshots
 > Home page
-![image](https://github.com/HannahRen/Han-react/blob/master/screenshots/home.png?raw=true)
+![home](https://github.com/HannahRen/Han-react/blob/master/screenshots/home.png?raw=true)
 > Business detail page
-![image](https://github.com/HannahRen/Han-react/blob/master/screenshots/detail.png?raw=true)
+![detail](https://github.com/HannahRen/Han-react/blob/master/screenshots/detail.png?raw=true)
 > Login page
-![image](https://github.com/HannahRen/Han-react/blob/master/screenshots/login.png?raw=true)
+![login](https://github.com/HannahRen/Han-react/blob/master/screenshots/login.png?raw=true)
 > User center page
-![image](https://github.com/HannahRen/Han-react/blob/master/screenshots/User.png?raw=true)
+![user](https://github.com/HannahRen/Han-react/blob/master/screenshots/User.png?raw=true)

@@ -2,10 +2,7 @@
 >a mobile app to help find local businesses based on user reviews
 
 ## Framework
->React
->React-Redux
->React-Router
->LESS
+>React, React-Redux, React-Router, LESS
 
 ## Build Setup
 ``` bash

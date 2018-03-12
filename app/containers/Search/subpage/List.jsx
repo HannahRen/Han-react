@@ -58,7 +58,7 @@ class SearchList extends React.Component {
       })
     }).catch(ex => {
       if (__DEV__) {
-        console.log('Something wrong getting search list, ', ex.message)
+        console.error('Something wrong getting search list, ', ex.message)
       }
     })
   }

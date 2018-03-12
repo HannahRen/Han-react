@@ -64,6 +64,54 @@ router.get('/api/search/:page/:city/:category/', function *(next) {
 
 })
 
+// Detail - business info
+var detailInfo = require('./detail/info.js')
+router.get('/api/detail/info/:id', function *(next) {
+    console.log('Detail-business info')
+
+    const params = this.params
+    const id = params.id
+
+    console.log('Business id: ' + id)
+
+    this.body = detailInfo
+})
+// Detail - user reviews
+var detailComment = require('./detail/comment.js')
+router.get('/api/detail/comment/:page/:id', function *(next) {
+    console.log('Detail-user reviews')
+
+    const params = this.params
+    const page = params.page
+    const id = params.id
+
+    console.log('Business id: ' + id + ', the current page: ' + page)
+
+    this.body = detailComment
+})
+
+// order list
+var orderList = require('./orderlist/orderList')
+router.get('/api/orderlist/:username', function *(next) {
+  console.log('Order list')
+
+  const params = this.params
+  const username = params.username
+  console.log('Username: ' + username)
+
+  this.body = orderList
+})
+
+//post comment
+router.post('/api/submitComment', function *(next) {
+  console.log('Submit a comment')
+
+  this.body = {
+    errno: 0,
+    msg: 'ok'
+  }
+})
+
 app.use(router.routes())
    .use(router.allowedMethods());
 

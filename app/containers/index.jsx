@@ -28,7 +28,7 @@ class App extends React.Component {
     componentDidMount() {
       let cityName = LocalStore.getItem(CITYNAME)
       if (cityName == null) {
-        cityName = 'TRT'
+        cityName = 'Toronto'
       }
       this.props.userInfoActions.update({
             cityName: cityName

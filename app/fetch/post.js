@@ -1,7 +1,7 @@
 import 'whatwg-fetch'
 import 'es6-promise'
 
-//key1=val1&key2=val2&key3=val3 的字符串形式
+//key1=val1&key2=val2&key3=val3 
 function obj2params(obj) {
     var result = '';
     var item;

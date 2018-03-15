@@ -43,7 +43,7 @@ class Buy extends React.Component {
         const id = this.props.id
         const userinfo = this.props.userinfo
         if (!userinfo.username) {
-            // 跳转到登录页面的时候，要传入目标router，以便登录完了可以自己跳转回来
+            // After login, it can jump back.
             hashHistory.push('/Login/' + encodeURIComponent('/detail/' + id))
             return false
         }
